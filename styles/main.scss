@@ -1,0 +1,14 @@
+// @import "styles/settings/variables.scss";
+// Can't import variable.scss for use scss variable global. Will fix late.
+
+// Normalize css of all browser
+@import "styles/generic/normalize.scss";
+
+// Reset css for this project
+@import "styles/generic/reset.scss";
+
+// Tools mixin use global
+@import "styles/tools/tools.mixins.scss";
+
+// Global common css
+@import "styles/generic/globals.scss";

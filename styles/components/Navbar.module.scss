@@ -1,0 +1,72 @@
+@import "styles/settings/variables.scss";
+
+.navBarWrap {
+  padding: 0.5rem 1.5rem;
+
+  .navBar {
+    margin: 0 auto;
+    padding: 0 15px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+      color: $color_green_1;
+      font-size: $fs_24;
+      font-weight: $fw_medium;
+    }
+
+    .listItem {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+
+      .itemWrap {
+        padding: 0.4rem 0;
+      }
+
+      .item {
+        display: inline-block;
+        color: $color_gray_3;
+
+        &:hover {
+          color: $color_gray_1;
+        }
+
+        &.active {
+          color: $color_green_1;
+        }
+      }
+
+      .item + .item {
+        margin-left: 1rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 544px) {
+  .navBar {
+    max-width: 576px;
+  }
+}
+
+@media (min-width: 768px) {
+  .navBar {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .navBar {
+    max-width: 940px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navBar {
+    max-width: 1140px;
+  }
+}
