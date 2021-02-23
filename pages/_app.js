@@ -1,6 +1,5 @@
-import "styles/normalize.css";
-import "styles/globals.css";
-import Layout from "components/common/Layout";
+import "styles/main.scss";
+import { Layout } from "components/common";
 
 const MyApp = ({ Component, pageProps }) => {
   return (
