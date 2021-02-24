@@ -1,51 +1,39 @@
 @import "styles/settings/variables.scss";
 @import "styles/tools/tools.mixins.scss";
 
-.footerWrap {
-  background-color: $color_gray_7;
-  margin-top: 2rem;
-  padding: 1rem 0;
+.mainContainerWrap {
+  padding-top: 2rem;
 
-  .footer {
+  .mainContainer {
     margin: 0 auto;
     padding: 0 15px;
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-
-    .logo {
-      color: $color_green_1;
-      font-size: $fs_16;
-    }
-
-    .blogInfo {
-      margin-left: 2rem;
-      font-size: $fs_12;
-      color: $color_gray_1;
-    }
+    flex-direction: column;
   }
 }
 
 @media (min-width: 576px) {
-  .footer {
+  .mainContainer {
     max-width: 544px;
   }
 }
 
 @media (min-width: 768px) {
-  .footer {
+  .mainContainer {
     max-width: 720px;
   }
 }
 
 @media (min-width: 992px) {
-  .footer {
+  .mainContainerWrap .mainContainer {
     max-width: 940px;
+    flex-direction: row;
   }
 }
 
 @media (min-width: 1200px) {
-  .footer {
+  .mainContainerWrap .mainContainer {
     max-width: 1140px;
+    flex-direction: row;
   }
 }

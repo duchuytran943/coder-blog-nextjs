@@ -1,9 +1,10 @@
-import { Banner } from "components/common";
+import { Banner, MainContainer } from "components/home";
 
 const Home = function Home() {
   return (
     <>
       <Banner></Banner>
+      <MainContainer></MainContainer>
     </>
   );
 };
