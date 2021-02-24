@@ -1,0 +1,51 @@
+@import "styles/settings/variables.scss";
+@import "styles/tools/tools.mixins.scss";
+
+.footerWrap {
+  background-color: $color_gray_7;
+  margin-top: 3rem;
+  padding: 1rem 0;
+
+  .footer {
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .logo {
+      color: $color_green_1;
+      font-size: $fs_16;
+    }
+
+    .blogInfo {
+      margin-left: 2rem;
+      font-size: $fs_12;
+      color: $color_gray_1;
+    }
+  }
+}
+
+@media (min-width: 544px) {
+  .footer {
+    max-width: 576px;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .footer {
+    max-width: 940px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .footer {
+    max-width: 1140px;
+  }
+}
