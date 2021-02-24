@@ -1,0 +1,25 @@
+@import "styles/settings/variables.scss";
+@import "styles/tools/tools.mixins.scss";
+
+.feedToggleWrap {
+  width: 100%;
+  margin-bottom: 0.5rem;
+
+  .feedToggle {
+    .item {
+      list-style: none;
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      color: $color_gray_3;
+
+      &:hover {
+        color: $color_gray_1;
+      }
+
+      &.active {
+        color: $color_green_1;
+        border-bottom: 2px solid $color_green_1;
+      }
+    }
+  }
+}
