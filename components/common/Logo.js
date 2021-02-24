@@ -4,7 +4,7 @@ import CustomLink from "./CustomLink";
 const Logo = () => {
   return (
     <CustomLink href={"/"} as={"/"}>
-      <h1 className={styles.logo}>Huy Blog</h1>
+      <h1 className={styles.logo}>HuyTran's Blog</h1>
     </CustomLink>
   );
 };
