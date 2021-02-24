@@ -1,0 +1,14 @@
+@import "styles/settings/variables.scss";
+@import "styles/tools/tools.mixins.scss";
+
+.sideContainer {
+  padding: 0 1rem;
+  flex: 1;
+  background-color: red;
+}
+
+@media (min-width: 992px) {
+  .contentContainer {
+    flex: 1;
+  }
+}
