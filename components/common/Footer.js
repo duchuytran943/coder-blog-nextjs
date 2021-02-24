@@ -1,4 +1,4 @@
-const Footer = ({ children }) => (
+const Footer = () => (
   <>
     <div>Footer</div>
   </>
